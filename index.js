@@ -19,7 +19,7 @@ function switchtab(clicktab) {
     currenttab.classList.remove("current-tab");
     currenttab = clicktab;
     currenttab.classList.add("current-tab");
-  }
+  
 
   if (!searchform.classList.contains("active")) {
     // kya search form is invisible , then make it is visible
@@ -36,6 +36,7 @@ function switchtab(clicktab) {
 
     getsessionstorage();
   }
+}
 }
 
 
